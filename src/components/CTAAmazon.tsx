@@ -5,12 +5,12 @@ type CTAAmazonProps = {
 
 export function CTAAmazon({ buttonText, amazonUrl }: CTAAmazonProps) {
   return (
-    <section className="bg-primary-500 py-16 text-white">
+    <section className="bg-primary-600 py-16 text-white">
       <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
-        <h2 className="text-2xl font-bold sm:text-3xl">
+        <h2 className="text-2xl font-bold text-white sm:text-3xl">
           Ready to try Lund's?
         </h2>
-        <p className="mt-2 text-primary-100">
+        <p className="mt-2 text-white/95">
           Order on Amazon and have authentic Swedish pancakes at home.
         </p>
         <a
